@@ -6,7 +6,7 @@
 <br>
 
 <div align="center">
-  <img height="475px" src="https://github.com/feliperyo/criando-usuarios-react/blob/master/src/assets/mockup.png?raw=true"/>
+  <img width="500" src="https://github.com/feliperyo/criando-usuarios-react/blob/master/src/assets/mockup.png?raw=true"/>
 </div>
 <br>
 <h3 align="center">Criação de API com Insomnia e ligação do Front-End com Back-End utilizando JSON.</h3>
