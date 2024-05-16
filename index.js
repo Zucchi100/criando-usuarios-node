@@ -2,7 +2,6 @@ const express = require("express");
 const uuid = require("uuid");
 const cors = require("cors");
 
-const port = process.env.PORT || 3001;
 const app = express();
 app.use(express.json());
 app.use(cors());
@@ -57,6 +56,6 @@ app.delete("/users/:id", checkUsersId, (request, response) => {
   return response.status(204).json();
 });
 
-app.listen(port, () => {
-  console.log(`Server started`);
+app.listen(process.env.PORT || 3001, () => {
+  console.log('Server started');
 });
